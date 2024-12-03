@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Stlye.css">
+</head>
+
+<body>
+
+    <div class="container my-5 d-flex flex-column justify-content-center align-content-center">
+        <h1 class=" py-3 text-center">Smart Login System</h1>
+
+        <div class=" mb-3 py-3 my-inputs container-fluid">
+
+            <input type="text" class="form-control mb-3 d-none" id="name" placeholder="Enter Your Name ">
+
+            <input type="email" class="form-control mb-3" id="Email" placeholder="Enter Your Email">
+            <input type="password" class="form-control" id="Password" placeholder="Enter Your Password">
+            <button class=" my-3 btn btn-outline-info container-fluid" id="main-button"> Login</button>
+            <button class=" my-3 btn btn-outline-info container-fluid d-none" id="main-button2"> SignUp</button>
+            <p class="text-white text-center my-paragraph1">Don’t have an account? <a href="#" target="_self"
+                    id="signUp">Sign Up</a>
+            </p>
+            <p class="text-white text-center d-none my-paragraph2">Don’t have an account? <a class="d-none" href="#"
+                    target="_self" id="signIn">Sign
+                    In</a></p>
+        </div>
+
+    </div>
+
+
+
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
